@@ -1,0 +1,53 @@
+{
+  "pages": {
+    "index.html": {
+      "title": "Home | NovaFone",
+      "nav_count": 6,
+      "slides_count": 4,
+      "has_header": true,
+      "has_footer": true,
+      "local_asset_refs_checked": 22
+    },
+    "quem-somos.html": {
+      "title": "Quem Somos | NovaFone",
+      "nav_count": 6,
+      "slides_count": 4,
+      "has_header": true,
+      "has_footer": true,
+      "local_asset_refs_checked": 13
+    },
+    "destaques.html": {
+      "title": "Destaques | NovaFone",
+      "nav_count": 6,
+      "slides_count": 4,
+      "has_header": true,
+      "has_footer": true,
+      "local_asset_refs_checked": 11
+    },
+    "sac.html": {
+      "title": "SAC | NovaFone",
+      "nav_count": 6,
+      "slides_count": 4,
+      "has_header": true,
+      "has_footer": true,
+      "local_asset_refs_checked": 11
+    },
+    "localizacao.html": {
+      "title": "Localização | NovaFone",
+      "nav_count": 6,
+      "slides_count": 4,
+      "has_header": true,
+      "has_footer": true,
+      "local_asset_refs_checked": 11
+    },
+    "fale-conosco.html": {
+      "title": "Fale Conosco | NovaFone",
+      "nav_count": 6,
+      "slides_count": 4,
+      "has_header": true,
+      "has_footer": true,
+      "local_asset_refs_checked": 11
+    }
+  },
+  "missing_files": []
+}

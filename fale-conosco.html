@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Fale Conosco | NovaFone</title>
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body class="">
+
+    <header class="topo-site">
+      <div class="container header-flex">
+        <a class="logo-link" href="index.html" aria-label="Ir para a página inicial">
+          <img src="img/logo.svg" alt="Logo NovaFone" class="logo" />
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <nav class="menu-principal" aria-label="Menu principal">
+          <ul>
+            <li><a class="" href="index.html">Home</a></li>
+<li><a class="" href="quem-somos.html">Quem Somos</a></li>
+<li><a class="" href="destaques.html">Destaques</a></li>
+<li><a class="" href="sac.html">SAC</a></li>
+<li><a class="" href="localizacao.html">Localização</a></li>
+<li><a class="active" href="fale-conosco.html">Fale Conosco</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <section class="hero-carousel" aria-label="Promoções e destaques">
+      <div class="carousel" data-carousel>
+        <button class="carousel-btn prev" aria-label="Slide anterior">❮</button>
+        <div class="slides-wrapper">
+
+       <div class="slide active">
+          <img src="img/b1.jpg" alt="Ofertas da Semana - Descontos especiais em smartphones premium." />
+          <div class="slide-caption">
+            <h2>Ofertas da Semana</h2>
+            <p>Descontos especiais em smartphones premium.</p>
+          </div>
+        </div>
+
+        <div class="slide ">
+          <img src="img/b2.jpg" alt="Troque Seu Aparelho - Avaliação rápida e bônus na troca do seu usado." />
+          <div class="slide-caption">
+            <h2>Troque Seu Aparelho</h2>
+            <p>Avaliação rápida e bônus na troca do seu usado.</p>
+          </div>
+        </div>
+
+        <div class="slide ">
+          <img src="img/capas.jpg" alt="Acessórios Originais - Capas, películas e carregadores com garantia." />
+          <div class="slide-caption">
+            <h2>Acessórios Originais</h2>
+            <p>Capas, películas e carregadores com garantia.</p>
+          </div>
+        </div>
+
+        <div class="slide ">
+          <img src="img/b4.jpg" alt="Entrega para Toda a Região - Compre online e receba com segurança." />
+          <div class="slide-caption">
+            <h2>Entrega para Toda a Região</h2>
+            <p>Compre online e receba com segurança.</p>
+          </div>
+        </div>
+
+        </div>
+        <button class="carousel-btn next" aria-label="Próximo slide">❯</button>
+        <div class="carousel-dots"><button class="dot active" data-slide="0" aria-label="Ir para slide 1"></button><button class="dot " data-slide="1" aria-label="Ir para slide 2"></button><button class="dot " data-slide="2" aria-label="Ir para slide 3"></button><button class="dot " data-slide="3" aria-label="Ir para slide 4"></button></div>
+      </div>
+    </section>
+
+      <main>
+
+<section class="container section-block contact-layout">
+  <div class="content-panel">
+    <span class="eyebrow">Atendimento digital</span>
+    <h1>Fale Conosco</h1>
+    <p>Preencha o formulário para tirar dúvidas, solicitar orçamento ou receber atendimento personalizado. O JavaScript realiza a validação obrigatória de e-mail e telefone antes do envio.</p>
+    <ul class="check-list">
+      <li>Campos organizados em layout responsivo</li>
+      <li>Validação de e-mail e telefone</li>
+      <li>Bloqueio de envio em caso de erro</li>
+    </ul>
+  </div>
+  <form id="contact-form" class="contact-form content-panel" novalidate>
+    <div class="field-row two-cols-form">
+      <div class="field-group">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required />
+      </div>
+      <div class="field-group">
+        <label for="endereco">Endereço</label>
+        <input type="text" id="endereco" name="endereco" required />
+      </div>
+    </div>
+    <div class="field-row two-cols-form">
+      <div class="field-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required placeholder="exemplo@email.com" />
+        <small class="error-message" id="email-error"></small>
+      </div>
+      <div class="field-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" required placeholder="(51) 99999-9999" />
+        <small class="error-message" id="telefone-error"></small>
+      </div>
+    </div>
+    <div class="field-group">
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+    </div>
+    <button type="submit" class="btn">Enviar mensagem</button>
+    <p id="form-status" class="form-status" aria-live="polite"></p>
+  </form>
+</section>
+
+      </main>
+
+    <footer class="rodape">
+      <div class="container footer-flex">
+        <div>
+          <h3>NovaFone</h3>
+          <p>Loja especializada em smartphones, acessórios e atendimento técnico.</p>
+        </div>
+        <div>
+          <p><strong>Contato:</strong> (51) 99999-2026</p>
+          <p><strong>E-mail:</strong> contato@novafone.com.br</p>
+        </div>
+      </div>
+      <p class="copyright">© <span id="current-year"></span> NovaFone. Projeto acadêmico desenvolvido em HTML5, CSS3 e JavaScript.</p>
+    </footer>
+
+      <script src="js/script.js"></script>
+    </body>
+    </html>
